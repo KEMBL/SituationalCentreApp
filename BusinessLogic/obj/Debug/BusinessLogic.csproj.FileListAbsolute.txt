@@ -3,3 +3,11 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\Bu
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\DataStorageProvider.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\EventsProvider.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\DataStorageProvider.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\EventsProvider.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\XMLDataStorage.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\DeviceModemGSM.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\XMLDataStorage.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\DeviceModemGSM.pdb

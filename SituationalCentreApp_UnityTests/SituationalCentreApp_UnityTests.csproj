@@ -61,13 +61,25 @@
       <Project>{d5641de7-d182-4986-ae83-aaa4c656eea6}</Project>
       <Name>BusinessLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{fba81b11-9336-4e73-817a-75e42d8013cb}</Project>
-      <Name>Domain</Name>
+    <ProjectReference Include="..\DataStorageProvider\DataStorageProvider.csproj">
+      <Project>{45670478-f85a-4df7-9977-8b7bd11ea3ae}</Project>
+      <Name>DataStorageProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeviceModemGSM\DeviceModemGSM.csproj">
+      <Project>{4acf980d-214e-4b7f-b6a1-29bd01b0f865}</Project>
+      <Name>DeviceModemGSM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventsProvider\EventsProvider.csproj">
+      <Project>{0fe4d608-6b28-496e-b3a0-df039099ee39}</Project>
+      <Name>EventsProvider</Name>
     </ProjectReference>
     <ProjectReference Include="..\SituationalCentreApp\SituationalCentreApp.csproj">
       <Project>{b51e80ed-ea3c-4b36-8671-fa3acd5b73e3}</Project>
       <Name>SituationalCentreApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMLDataStorage\XMLDataStorage.csproj">
+      <Project>{0ae1bf4e-6c54-496c-8bad-8866f7ecef45}</Project>
+      <Name>XMLDataStorage</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

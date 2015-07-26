@@ -14,3 +14,4 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\D
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\PreferencesWindow.g.cs
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp_MarkupCompile.lref
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.csprojResolveAssemblyReference.cache
