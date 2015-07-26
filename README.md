@@ -1,2 +1,2 @@
 # SituationalCentreApp
-It is example of C# .NET WPF application it collects information from incoming SMS messages
+It is example of C# .NET WPF TDD application it collects information from incoming SMS messages
