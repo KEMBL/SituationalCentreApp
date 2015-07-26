@@ -11,6 +11,10 @@ namespace BusinessLogic
     public class SituationalCentre
     {
         /// <summary>
+        /// Application engine started well
+        /// </summary>
+        public bool Status;
+        /// <summary>
         /// Interface for events sources collected from outer world trough some device
         /// </summary>
         private readonly IEventsProvider _eventsProvider;
@@ -28,6 +32,8 @@ namespace BusinessLogic
             // TODO: Complete member initialization
             _eventsProvider = eventsProvider;
             _dataStorage = dataStorage;
+
+            Status = true;
         }
     }
 }

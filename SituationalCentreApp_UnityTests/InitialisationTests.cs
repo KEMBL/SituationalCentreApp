@@ -20,12 +20,14 @@ namespace SituationalCentreApp_UnityTests
         [TestMethod]
         public void SituationalCentre_Initialization()
         {
+            // create temporary interfaces for unexists yet classes
             Mock<IEventsProvider> eventsProvider = new Mock<IEventsProvider>();
             Mock<IDataStorageProvider> dataStorage = new Mock<IDataStorageProvider>();
             
+            // init main app engine
             SituationalCentre sCentre = new SituationalCentre(eventsProvider.Object, dataStorage.Object);
-
-            Assert.IsNotNull(sCentre);
+            
+            Assert.IsTrue(sCentre.Status);
         }
         /// <summary>
         /// Test class which allows to store and read persistent information for this application
