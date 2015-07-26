@@ -1,0 +1,14 @@
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\SituationalCentreApp_UnityTests.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\SituationalCentreApp_UnityTests.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\BusinessLogic.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\Domain.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\SituationalCentreApp.exe
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\BusinessLogic.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\Domain.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\SituationalCentreApp.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\obj\Debug\SituationalCentreApp_UnityTests.csprojResolveAssemblyReference.cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\obj\Debug\SituationalCentreApp_UnityTests.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\obj\Debug\SituationalCentreApp_UnityTests.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\Moq.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\Moq.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp_UnityTests\bin\Debug\Moq.xml

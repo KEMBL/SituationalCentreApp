@@ -1,0 +1,5 @@
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\obj\Debug\BusinessLogic.pdb

@@ -1,0 +1,16 @@
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\SituationalCentreApp.exe.config
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\App.g.cs
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp_MarkupCompile.cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\SituationalCentreApp.exe
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\SituationalCentreApp.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\MainWindow.baml
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\MainWindow.g.cs
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.g.resources
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.Properties.Resources.resources
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.csproj.GenerateResource.Cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.exe
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\PreferencesWindow.baml
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\PreferencesWindow.g.cs
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp_MarkupCompile.lref
