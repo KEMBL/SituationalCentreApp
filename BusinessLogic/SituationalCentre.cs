@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataStorageProviderLib;
+using DeviceModemGSMLib;
 using EventsProviderLib;
 
 namespace BusinessLogic
@@ -34,6 +35,23 @@ namespace BusinessLogic
             _dataStorage = dataStorage;
 
             Status = true;
+        }
+        /// <summary>
+        /// Run preparation steps to initialization application
+        /// </summary>
+        /// <param name="eventsProvider"></param>
+        /// <param name="dataStorageProvider"></param>
+        /// <returns></returns>
+        public static SituationalCentre Initialization()
+        {
+            //create events device
+            IEventsDevice eventsDevice = new DeviceModemGSM();
+
+            IEventsProvider eventsProvider = null;//new EventsProvider(eventsDevice.Object);
+            IDataStorageProvider dataStorageProvider = null;
+
+            SituationalCentre sCentre = new SituationalCentre(eventsProvider, dataStorageProvider);
+            return sCentre;
         }
     }
 }

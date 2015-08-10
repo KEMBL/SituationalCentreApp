@@ -47,6 +47,10 @@
       <Project>{45670478-f85a-4df7-9977-8b7bd11ea3ae}</Project>
       <Name>DataStorageProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DeviceModemGSM\DeviceModemGSM.csproj">
+      <Project>{4acf980d-214e-4b7f-b6a1-29bd01b0f865}</Project>
+      <Name>DeviceModemGSM</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EventsProvider\EventsProvider.csproj">
       <Project>{0fe4d608-6b28-496e-b3a0-df039099ee39}</Project>
       <Name>EventsProvider</Name>

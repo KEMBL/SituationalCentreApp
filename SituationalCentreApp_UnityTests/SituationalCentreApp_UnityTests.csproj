@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="InitialisationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DeviceModemGSMTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">

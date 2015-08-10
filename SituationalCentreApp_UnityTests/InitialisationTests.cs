@@ -15,18 +15,19 @@ namespace SituationalCentreApp_UnityTests
     public class InitialisationTests
     {
         /// <summary>
-        /// Test of main application class initialization
+        /// Test of main application object creation
         /// </summary>
         [TestMethod]
-        public void SituationalCentre_Initialization()
+        public void SituationalCentre_NewSituationalCentre()
         {
             // create temporary interfaces for unexists yet classes
             Mock<IEventsProvider> eventsProvider = new Mock<IEventsProvider>();
             Mock<IDataStorageProvider> dataStorage = new Mock<IDataStorageProvider>();
-            
-            // init main app engine
+
+            // Run preparation steps to initialization application            
             SituationalCentre sCentre = new SituationalCentre(eventsProvider.Object, dataStorage.Object);
-            
+
+            //check results            
             Assert.IsTrue(sCentre.Status);
         }
         /// <summary>
@@ -71,7 +72,20 @@ namespace SituationalCentreApp_UnityTests
         {
             IEventsDevice eventsDevice = new DeviceModemGSM();
             // check device status
-            Assert.IsTrue(eventsDevice.DeviceStatus);
+            //Assert.IsTrue(eventsDevice.DeviceStatus);
+            Assert.AreEqual(eventsDevice.DeviceStatus, DeviceState.Conected);
+        }
+        /// <summary>
+        /// Test of main application class initialization
+        /// </summary>
+        [TestMethod]
+        public void SituationalCentre_Initialization()
+        {
+            // Run preparation steps to initialization application            
+            SituationalCentre sCentre = SituationalCentre.Initialization();
+
+            //check results
+            Assert.IsNotNull(sCentre);
         }
     }
 }

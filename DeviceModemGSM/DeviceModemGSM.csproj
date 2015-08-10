@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeviceModemGSM.cs" />
+    <Compile Include="Enums.cs" />
     <Compile Include="IEventsDevice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

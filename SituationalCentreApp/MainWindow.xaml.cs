@@ -23,6 +23,7 @@ namespace SituationalCentreApp
         public MainWindow()
         {
             InitializeComponent();
+            //SituationalCentreApp.Initialization();
         }
 
         private void PreferencesClicked(object sender, RoutedEventArgs e)

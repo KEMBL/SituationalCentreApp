@@ -14,6 +14,18 @@ namespace DeviceModemGSMLib
         /// <summary>
         /// Getter for device status, Operable == true
         /// </summary>
-        bool DeviceStatus { get; }
+        DeviceState DeviceStatus { get; }
+
+        /// <summary>
+        /// Call back to read device state changes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        //void DeviceStateChange(EventHandler<EventArgs> subscribeHandler);
+        EventHandler<EventArgs> DeviceStateChange { set; get; }
+        /// <summary>
+        /// Start to search appropriate device among computer devices
+        /// </summary>
+        void SearchDevice();
     }
 }
