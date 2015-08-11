@@ -7,6 +7,6 @@
     {
         Disconnected,
         Connecting,
-        Conected
+        Connected
     }
 }

@@ -65,17 +65,6 @@ namespace SituationalCentreApp_UnityTests
             Assert.IsNotNull(eventsProvider);
         }
         /// <summary>
-        /// Test class for serial GSM modem device which is a source of all events
-        /// </summary>
-        [TestMethod]
-        public void GSMModem_Initialisation()
-        {
-            IEventsDevice eventsDevice = new DeviceModemGSM();
-            // check device status
-            //Assert.IsTrue(eventsDevice.DeviceStatus);
-            Assert.AreEqual(eventsDevice.DeviceStatus, DeviceState.Conected);
-        }
-        /// <summary>
         /// Test of main application class initialization
         /// </summary>
         [TestMethod]

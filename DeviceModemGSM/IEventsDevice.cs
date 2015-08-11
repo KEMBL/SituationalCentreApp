@@ -27,5 +27,15 @@ namespace DeviceModemGSMLib
         /// Start to search appropriate device among computer devices
         /// </summary>
         void SearchDevice();
+        /// <summary>
+        /// Detach from modem device if it exists
+        /// </summary>
+        void Disconnect();
+        /// <summary>
+        /// Send command to device
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        string SendCommand(string command);
     }
 }
