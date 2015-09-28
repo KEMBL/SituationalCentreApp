@@ -1,0 +1,5 @@
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\XMLDataStorage\bin\Debug\XMLDataStorage.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\XMLDataStorage\bin\Debug\XMLDataStorage.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\XMLDataStorage\obj\Debug\XMLDataStorage.csprojResolveAssemblyReference.cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\XMLDataStorage\obj\Debug\XMLDataStorage.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\XMLDataStorage\obj\Debug\XMLDataStorage.pdb

@@ -10,8 +10,9 @@
                     <MenuItem Header="_Close"/>
                     <MenuItem Header="_Save"/>
                 </-->
-         <MenuItem Header="_Настройки" Click="PreferencesClicked"/>
-        </Menu>
+                <MenuItem Header="_Настройки" Click="PreferencesClicked"/>
+                <MenuItem Header="_Журнал"  Click="LogsClicked"/>
+            </Menu>
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBar.ItemsPanel>
                 <ItemsPanelTemplate>

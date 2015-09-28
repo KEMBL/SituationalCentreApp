@@ -1,7 +1,7 @@
 ﻿SituationalCentreApp
 
 
-winexe
+exe
 C#
 .cs
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\
@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\App.xaml
-2-399898749
+341515866
 
-11-1955358387
-12-1401562060
-MainWindow.xaml;PreferencesWindow.xaml;
+131838223651
+14-1221428456
+LogsWindow.xaml;MainWindow.xaml;PreferencesWindow.xaml;
 
 False
 

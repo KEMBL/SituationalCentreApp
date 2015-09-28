@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DataStorageProviderLib;
 using DeviceModemGSMLib;
 using EventsProviderLib;
+using XMLDataStorageLib;
 
 namespace BusinessLogic
 {
@@ -44,14 +45,51 @@ namespace BusinessLogic
         /// <returns></returns>
         public static SituationalCentre Initialization()
         {
-            //create events device
-            IEventsDevice eventsDevice = new DeviceModemGSM();
+#if DEBUG
+            Console.WriteLine("-------Initialization--------");
+            Log.Debug("-------Initialization--------");
+#endif
 
-            IEventsProvider eventsProvider = null;//new EventsProvider(eventsDevice.Object);
+            //1. Init XML DATA Storage
+            IDataStorage storage = new XMLDataStorage();
+            if (!storage.StoreLoaded)
+            {
+#if DEBUG
+                Console.WriteLine("Error Initialization(): Cannot init DataStorage.");
+#endif
+                return null;
+            }
+
+            return null;
+
+            //2. create events device
+            bool autoConnect = true;
+            IEventsDevice eventsDevice = new DeviceModemGSM(autoConnect);
+
+            //3. Init Events provider
+            IEventsProvider eventsProvider = new EventsProvider(eventsDevice);
             IDataStorageProvider dataStorageProvider = null;
 
             SituationalCentre sCentre = new SituationalCentre(eventsProvider, dataStorageProvider);
             return sCentre;
+
+            /// <summary>
+            /// Start up all other components
+            /// </summary>
+
+            //1. Init XML DATA Storage
+            //IDataStorage storage = new XMLDataStorage();
+
+            //2. Init Data provider
+
+            //3. Init Events provider
+
+            //
+
+            //4. SituationalCentre(IEventsProvider eventsProvider, IDataStorageProvider dataStorage)
+            
+
+
         }
     }
 }

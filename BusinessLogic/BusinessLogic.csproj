@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Libs\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SituationalCentre.cs" />
   </ItemGroup>
@@ -54,6 +58,10 @@
     <ProjectReference Include="..\EventsProvider\EventsProvider.csproj">
       <Project>{0fe4d608-6b28-496e-b3a0-df039099ee39}</Project>
       <Name>EventsProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMLDataStorage\XMLDataStorage.csproj">
+      <Project>{0ae1bf4e-6c54-496c-8bad-8866f7ecef45}</Project>
+      <Name>XMLDataStorage</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

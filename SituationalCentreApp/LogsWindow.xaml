@@ -1,0 +1,18 @@
+﻿<Window x:Class="SituationalCentreApp.LogsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Журнал системы" Height="319" Width="760">
+    <Grid>
+        <RichTextBox Grid.Column="0" Grid.Row="0" x:Name="Logdata" IsReadOnly="True" 
+                     ToolTip="Журнал системы" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <!-- Background="White" -->
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="1"/>
+                    <!--Setter Property="FontFamily" Value="Verdana"/-->
+                    <Setter Property="FontSize" Value="14"/>                    
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
+    </Grid>
+</Window>

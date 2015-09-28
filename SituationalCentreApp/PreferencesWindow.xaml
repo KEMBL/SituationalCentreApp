@@ -61,7 +61,6 @@
 			ToolTip="Послать на SMS приемник текстовую команду!"
                    />
         <RichTextBox Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" x:Name="Commdata"
-			ToolTip="Данные, полученные от SMS модема"                     
-                     />
+			ToolTip="Данные, полученные от SMS модема"/>
     </Grid>
 </Window>

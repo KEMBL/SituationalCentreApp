@@ -1,0 +1,102 @@
+2015-09-28 03:28:24,981 [10] DEBUG Log - Система журналирования запущена
+2015-09-28 03:28:24,986 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:03:06,626 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:03:06,632 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:04:09,145 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:04:09,151 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:04:10,139 [9] DEBUG Log - --T1--
+2015-09-28 04:04:10,149 [9] DEBUG Log - --T2--
+2015-09-28 04:04:15,978 [9] DEBUG Log - --T1--
+2015-09-28 04:04:15,985 [9] DEBUG Log - --T2--
+2015-09-28 04:04:32,928 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:04:32,934 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:04:34,267 [9] DEBUG Log - --T1--
+2015-09-28 04:04:34,275 [9] DEBUG Log - --T2--
+2015-09-28 04:05:48,168 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:05:48,174 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:05:49,667 [9] DEBUG Log - --T1--
+2015-09-28 04:05:49,676 [9] DEBUG Log - --T2--
+2015-09-28 04:13:04,927 [11] DEBUG Log - Log sysytem starting!
+2015-09-28 04:13:04,933 [11] DEBUG Log - -------Initialization--------
+2015-09-28 04:13:06,601 [11] DEBUG Log - --T1--
+2015-09-28 04:13:06,610 [11] DEBUG Log - --T2--
+2015-09-28 04:15:44,714 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:15:44,720 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:15:46,336 [9] DEBUG Log - --T1--
+2015-09-28 04:15:46,345 [9] DEBUG Log - --T2--
+2015-09-28 04:16:01,851 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:16:01,857 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:16:02,775 [10] DEBUG Log - --T1--
+2015-09-28 04:16:02,785 [10] DEBUG Log - --T2--
+2015-09-28 04:16:11,767 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:16:11,773 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:16:13,020 [9] DEBUG Log - --T1--
+2015-09-28 04:16:13,029 [9] DEBUG Log - --T2--
+2015-09-28 04:16:33,803 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:16:33,810 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:16:34,784 [10] DEBUG Log - --T1--
+2015-09-28 04:16:34,793 [10] DEBUG Log - --T2--
+2015-09-28 04:16:56,198 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:16:56,204 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:16:57,271 [10] DEBUG Log - --T1--
+2015-09-28 04:16:57,280 [10] DEBUG Log - --T2--
+2015-09-28 04:17:30,426 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:17:30,432 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:17:31,599 [10] DEBUG Log - --T1--
+2015-09-28 04:17:31,608 [10] DEBUG Log - --T2--
+2015-09-28 04:18:33,065 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:18:33,072 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:18:34,534 [10] DEBUG Log - --T1--
+2015-09-28 04:18:34,543 [10] DEBUG Log - --T2--
+2015-09-28 04:19:50,955 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:19:50,965 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:19:51,830 [10] DEBUG Log - --T1--
+2015-09-28 04:19:51,839 [10] DEBUG Log - --T2--
+2015-09-28 04:20:05,073 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:20:05,080 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:20:06,238 [9] DEBUG Log - --T1--
+2015-09-28 04:20:06,247 [9] DEBUG Log - --T2--
+2015-09-28 04:22:40,469 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:22:40,482 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:22:41,533 [10] DEBUG Log - --T1--
+2015-09-28 04:22:41,543 [10] DEBUG Log - --T2--
+2015-09-28 04:23:13,360 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:23:13,368 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:23:14,619 [10] DEBUG Log - --T1--
+2015-09-28 04:23:14,629 [10] DEBUG Log - --T2--
+2015-09-28 04:24:36,971 [11] DEBUG Log - Log sysytem starting!
+2015-09-28 04:24:36,977 [11] DEBUG Log - -------Initialization--------
+2015-09-28 04:24:37,947 [11] DEBUG Log - --T1--
+2015-09-28 04:24:37,957 [11] DEBUG Log - --T2--
+2015-09-28 04:24:56,215 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:24:56,221 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:24:57,411 [10] DEBUG Log - --T1--
+2015-09-28 04:24:57,420 [10] DEBUG Log - --T2--
+2015-09-28 04:25:15,241 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:25:15,247 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:25:16,188 [10] DEBUG Log - --T1--
+2015-09-28 04:25:16,198 [10] DEBUG Log - --T2--
+2015-09-28 04:25:29,155 [9] DEBUG Log - Log sysytem starting!
+2015-09-28 04:25:29,161 [9] DEBUG Log - -------Initialization--------
+2015-09-28 04:25:30,179 [9] DEBUG Log - --T1--
+2015-09-28 04:25:30,190 [9] DEBUG Log - --T2--
+2015-09-28 04:27:08,043 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:27:08,049 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:27:08,868 [10] DEBUG Log - --T1--
+2015-09-28 04:27:08,877 [10] DEBUG Log - --T2--
+2015-09-28 04:27:18,425 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:27:18,431 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:27:19,802 [10] DEBUG Log - --T1--
+2015-09-28 04:27:19,811 [10] DEBUG Log - --T2--
+2015-09-28 04:27:33,739 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:27:33,746 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:27:34,833 [10] DEBUG Log - --T1--
+2015-09-28 04:27:34,842 [10] DEBUG Log - --T2--
+2015-09-28 04:27:55,927 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:27:55,933 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:27:57,491 [10] DEBUG Log - --T1--
+2015-09-28 04:27:57,500 [10] DEBUG Log - --T2--
+2015-09-28 04:28:29,567 [10] DEBUG Log - Log sysytem starting!
+2015-09-28 04:28:29,573 [10] DEBUG Log - -------Initialization--------
+2015-09-28 04:28:30,482 [10] DEBUG Log - --T1--
+2015-09-28 04:28:30,493 [10] DEBUG Log - --T2--

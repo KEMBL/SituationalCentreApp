@@ -15,3 +15,17 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\D
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp_MarkupCompile.lref
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\SituationalCentreApp.csprojResolveAssemblyReference.cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\BusinessLogic.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\EventsProvider.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\DataStorageProvider.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\XMLDataStorage.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\DeviceModemGSM.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\BusinessLogic.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\EventsProvider.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\DataStorageProvider.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\XMLDataStorage.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\DeviceModemGSM.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\LogsWindow.baml
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\LogsWindow.g.cs
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\log4net.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\log4net.xml
