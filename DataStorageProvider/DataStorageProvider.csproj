@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SystemLogics\SystemLogics.csproj">
+      <Project>{db6ab0e6-bf2f-402b-934f-3217bb16f0b3}</Project>
+      <Name>SystemLogics</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XMLDataStorage\XMLDataStorage.csproj">
       <Project>{0ae1bf4e-6c54-496c-8bad-8866f7ecef45}</Project>
       <Name>XMLDataStorage</Name>

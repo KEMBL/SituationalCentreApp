@@ -8,6 +8,7 @@ using DataStorageProviderLib;
 using DeviceModemGSMLib;
 using EventsProviderLib;
 using XMLDataStorageLib;
+using SystemLogics;
 
 namespace SituationalCentreApp_UnityTests
 {
@@ -39,7 +40,7 @@ namespace SituationalCentreApp_UnityTests
             IDataStorage xmlStorage = new XMLDataStorage();
 
             //storage initialized well
-            Assert.IsTrue(xmlStorage.StoreLoaded);
+            Assert.IsTrue(xmlStorage.State == ComponentState.Ready);
         }
         /// <summary>
         /// Test class which provides data storage behavior

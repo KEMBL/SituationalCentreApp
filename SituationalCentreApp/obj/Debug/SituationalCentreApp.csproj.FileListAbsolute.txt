@@ -29,3 +29,5 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\D
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\obj\Debug\LogsWindow.g.cs
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\log4net.dll
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\log4net.xml
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\SystemLogics.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SituationalCentreApp\bin\Debug\SystemLogics.pdb

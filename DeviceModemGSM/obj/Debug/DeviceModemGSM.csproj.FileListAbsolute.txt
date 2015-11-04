@@ -3,3 +3,5 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\DeviceModemGSM\bin\Debug\D
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\DeviceModemGSM\obj\Debug\DeviceModemGSM.csprojResolveAssemblyReference.cache
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\DeviceModemGSM\obj\Debug\DeviceModemGSM.dll
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\DeviceModemGSM\obj\Debug\DeviceModemGSM.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\DeviceModemGSM\bin\Debug\SystemLogics.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\DeviceModemGSM\bin\Debug\SystemLogics.pdb

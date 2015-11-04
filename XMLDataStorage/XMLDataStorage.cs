@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SystemLogics;
 
 namespace XMLDataStorageLib
 {
@@ -12,22 +13,28 @@ namespace XMLDataStorageLib
     public class XMLDataStorage : IDataStorage
     {
         /// <summary>
-        /// Current storage system state
+        /// State of the current component
         /// </summary>
-        private bool _storeState;
+        public ComponentState State { get; set; }
         /// <summary>
         /// All information initialized and system ready to work
         /// </summary>
         public bool StoreLoaded {
-            get { return _storeState; }
+            get { return State == ComponentState.Ready; }
         }
         /// <summary>
         /// Constructor
         /// </summary>
         public XMLDataStorage()
         {
-            //all works fine
-            _storeState = true;
+            //all works fine            
+            State = ComponentState.Ready;
         }
+
+        public void Dispose()
+        {
+            
+        }
+
     }
 }

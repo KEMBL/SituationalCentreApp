@@ -3,6 +3,8 @@ using log4net.Config;
 using System;
 using System.Data;
 using System.IO;
+using log4net.Appender;
+
 /// <summary>
 /// Perform log actions
 /// </summary>
@@ -30,13 +32,35 @@ public static class Log
 //        FileInfo configFileInfo = new FileInfo(Path.Combine(BinaryPath, "log4net.config"));
 //        XmlConfigurator.ConfigureAndWatch(configFileInfo);
         _logger = LogManager.GetLogger(typeof (Log));
-
+        
         // This method initializes the log4net system to use a simple Console appender.
         //BasicConfigurator.Configure();
         DOMConfigurator.Configure();
-
-        Debug("Log sysytem starting!");
+#if DEBUG
+        Debug("Log system starting!");        
+#endif
     }
+
+
+    static public string GetLogFileName()
+    {
+        String filename = null;
+
+        IAppender[] appenders = _logger.Logger.Repository.GetAppenders();
+        // Check each appender this logger has
+        foreach (IAppender appender in appenders)
+        {
+            Type t = appender.GetType();
+            // Get the file name from the first FileAppender found and return
+            if (t.Equals(typeof(FileAppender)) || t.Equals(typeof(RollingFileAppender)))
+            {
+                filename = ((FileAppender)appender).File;
+                break;
+            }
+        }
+        return filename;
+    }
+
     /// <summary>
     /// Log Debug message
     /// </summary>
@@ -88,7 +112,9 @@ public static class Log
     /// <param name="message"></param>
     public static void PostProcess(string message)
     {
-        //Console.WriteLine("Log> " + message);
+#if DEBUG
+        Console.WriteLine(DateTime.Now + " " + message);
+#endif
         if (_newLogArrived != null)
         {
             _newLogArrived(DateTime.Now + " " + message);

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SystemLogics;
 using XMLDataStorageLib;
 
 namespace DataStorageProviderLib
@@ -17,11 +13,29 @@ namespace DataStorageProviderLib
         /// </summary>
         private IDataStorage _xmlStorage;
         /// <summary>
+        /// State of the current component
+        /// </summary>
+        public ComponentState State { get; set; }
+        /// <summary>
         /// Initialize provider, check store and other factors
         /// </summary>
         public DataStorageProvider(IDataStorage xmlStorage)
         {            
             this._xmlStorage = xmlStorage;
+
+            State = ComponentState.Ready;
+        }
+        /// <summary>
+        /// Dispose object
+        /// </summary>
+        public void Dispose()
+        {
+            State = ComponentState.NoReady;
+            if (_xmlStorage != null)
+            {                
+                _xmlStorage.Dispose();
+                _xmlStorage = null;
+            }            
         }
     }
 }

@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataStorageProviderLib;
 using DeviceModemGSMLib;
 using EventsProviderLib;
 using XMLDataStorageLib;
+using SystemLogics;
 
 namespace BusinessLogic
 {
-    public class SituationalCentre
+    public class SituationalCentre : IDisposable
     {
         /// <summary>
         /// Application engine started well
@@ -45,31 +42,42 @@ namespace BusinessLogic
         /// <returns></returns>
         public static SituationalCentre Initialization()
         {
-#if DEBUG
-            Console.WriteLine("-------Initialization--------");
-            Log.Debug("-------Initialization--------");
-#endif
+            Log.Debug("-------Запуск системы--------");
 
             //1. Init XML DATA Storage
             IDataStorage storage = new XMLDataStorage();
-            if (!storage.StoreLoaded)
+            if (storage.State != ComponentState.Ready)
             {
-#if DEBUG
-                Console.WriteLine("Error Initialization(): Cannot init DataStorage.");
-#endif
+                Log.Error("Initialization(): Cannot init DataStorage.");
+                storage.Dispose();
+                storage = null;               
                 return null;
             }
 
-            return null;
 
+            //. Init Data Provider
+            IDataStorageProvider dataStorageProvider = new DataStorageProvider(storage);
+            if (dataStorageProvider.State != ComponentState.Ready)
+            {
+               Log.Error("Initialization(): Cannot init DataStorageProvider.");
+               storage.Dispose();
+               storage = null;
+
+               dataStorageProvider.Dispose();
+               dataStorageProvider = null;
+               return null;                
+            }
+
+            //
+            return null;
             //2. create events device
             bool autoConnect = true;
             IEventsDevice eventsDevice = new DeviceModemGSM(autoConnect);
 
             //3. Init Events provider
             IEventsProvider eventsProvider = new EventsProvider(eventsDevice);
-            IDataStorageProvider dataStorageProvider = null;
-
+            
+            //IDataStorageProvider dataStorageProvider = null;
             SituationalCentre sCentre = new SituationalCentre(eventsProvider, dataStorageProvider);
             return sCentre;
 
@@ -90,6 +98,12 @@ namespace BusinessLogic
             
 
 
+        }
+
+        public void Dispose()
+        {
+            //storage.Dispose();
+            //storage = null;
         }
     }
 }

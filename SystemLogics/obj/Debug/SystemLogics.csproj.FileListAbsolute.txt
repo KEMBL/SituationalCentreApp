@@ -1,0 +1,5 @@
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SystemLogics\bin\Debug\SystemLogics.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SystemLogics\bin\Debug\SystemLogics.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SystemLogics\obj\Debug\SystemLogics.csprojResolveAssemblyReference.cache
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SystemLogics\obj\Debug\SystemLogics.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\SystemLogics\obj\Debug\SystemLogics.pdb

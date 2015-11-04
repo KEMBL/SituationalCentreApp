@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SystemLogics;
 
 namespace DeviceModemGSMLib
 {
     /// <summary>
     /// This interface allows to use different devices as event sources
     /// </summary>
-    public interface IEventsDevice
+    public interface IEventsDevice : IDisposable
     {
         /// <summary>
         /// Getter for device status, Operable == true

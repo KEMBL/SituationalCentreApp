@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SystemLogics;
 
 namespace XMLDataStorageLib
 {
     /// <summary>
     /// This interface allows use different types of data storages
     /// </summary>
-    public interface IDataStorage
+    public interface IDataStorage : IDisposable
     {
-        bool StoreLoaded { get; }
+        /// <summary>
+        /// Work state of the current component
+        /// </summary>
+        ComponentState State { get; set; }        
     }
 }

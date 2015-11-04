@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using SystemLogics;
 
 namespace DeviceModemGSMLib
 {
@@ -12,7 +12,7 @@ namespace DeviceModemGSMLib
     /// This class describes how to manage GSM device with a serial COM interface
     /// For now used Cinterion MC52i REVISION 01.201
     /// </summary>
-    public class DeviceModemGSM : IEventsDevice, IDisposable
+    public class DeviceModemGSM : IEventsDevice
     {
 
         #region StringConstants

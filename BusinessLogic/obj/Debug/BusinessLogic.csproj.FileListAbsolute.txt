@@ -13,3 +13,5 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\XM
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\DeviceModemGSM.pdb
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\log4net.dll
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\log4net.xml
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\SystemLogics.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\BusinessLogic\bin\Debug\SystemLogics.pdb

@@ -5,3 +5,5 @@ D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\EventsProvider\obj\Debug\E
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\EventsProvider\obj\Debug\EventsProvider.pdb
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\EventsProvider\bin\Debug\DeviceModemGSM.dll
 D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\EventsProvider\bin\Debug\DeviceModemGSM.pdb
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\EventsProvider\bin\Debug\SystemLogics.dll
+D:\3D\outsourcing\kembl\Cinteron\SituationalCentreApp\EventsProvider\bin\Debug\SystemLogics.pdb
